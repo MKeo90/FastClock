@@ -7,7 +7,7 @@
                       mc:Ignorable="d"
         WindowStyle="ThreeDBorderWindow" BorderThickness="2" 
         BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"
-        Title="DigitalClock" Height="110" Width="250" Initialized="Window_Initialized" ResizeMode="NoResize">
+        Title="DigitalClock" Height="200" Width="600" Initialized="Window_Initialized" ResizeMode="NoResize">
     <Grid>
         <TextBlock x:Name="TextBlockClock" TextWrapping="Wrap" Text="00:00" HorizontalAlignment="Center" 
                    VerticalAlignment="Center" FontFamily="Courier New" FontSize="55"/>
